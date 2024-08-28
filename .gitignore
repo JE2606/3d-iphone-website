@@ -1,60 +1,20 @@
-# Node modules
-/node_modules/
+# Created by https://www.toptal.com/developers/gitignore/api/react
+# Edit at https://www.toptal.com/developers/gitignore?templates=react
 
-# Build output
-/dist/
-*.tgz
-
-# Log files
+### react ###
+.DS_*
 *.log
+logs
+**/*.backup.*
+**/*.back.*
 
-# Dependency directories
-/.pnp
-.pnp.js
+node_modules
+bower_components
 
-# dotenv environment variables file
-.env
-.env.*
+*.sublime*
 
-# Next.js build output
-.next
+psd
+thumb
+sketch
 
-# macOS Finder files
-.DS_Store
-
-# Windows system files
-Thumbs.db
-ehthumbs.db
-
-# VSCode settings
-.vscode/
-
-# JetBrains IDEs
-.idea/
-
-# npm package lock file
-package-lock.json
-
-# yarn lock file
-yarn.lock
-
-# pnpm lock file
-pnpm-lock.yaml
-
-# Sentry cache and build
-.sentry/
-
-# Sentry release artifacts
-.sentry-release/
-
-# Vite cache
-/.vite/
-
-# Storybook
-out/
-
-# Coverage directory used by tools like Jest
-/coverage/
-
-# TypeScript
-*.tsbuildinfo
+# End of https://www.toptal.com/developers/gitignore/api/react

@@ -7,9 +7,9 @@ const Footer = () => {
             <div className='screen-max-width'>
                 <div>
                     <p className='font-semibold text-gray-100 text-xs'>More ways to shop: {' '}
-                        <a href="#" className='text-blue underline'>Find an Apple Store</a>{' '}
+                        <a href="#root" className='text-blue underline'>Find an Apple Store</a>{' '}
                         or {' '}
-                        <a href="#" className='text-blue underline'>other reailer</a>{' '}
+                        <a href="#root" className='text-blue underline'>other reailer</a>{' '}
                         near you.
                     </p>
                     <p className='font-semibold text-gray-100 text-xs'>Or call 000800-00-1966</p>
